@@ -6,10 +6,14 @@
    Date         : 25 novembre 2024
    Description  : Fichier principal de style
    ========================================================== */
-
+/* 
+    + ----------------- +
+    |     CSS RESET     |
+    + ----------------- +
+*/
 
 html{
-    font-size: 62.5%; /* base 10 */
+    font-size: 62.5%; /* ========== base 10 ===*/
 }
 
 body{
@@ -30,3 +34,7 @@ p, figure, ul, ol{
     box-sizing: border-box; /* 100px largeur ajouter 10px 
     droite et gauche de l'élément: largeur totale = 120  100 - 20 */
 }
+
+/* ====================
+    END RESET CSS
+   ==================== */
