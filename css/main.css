@@ -1,1 +1,44 @@
 @import url(./reset.css);
+
+/* 
+  =====================
+  |     THEME CSS     |   
+  |       STYLE       |
+  ===================== 
+*/        
+
+header{
+    background-color: #222;
+}
+
+header h1{
+    line-height: 7.8rem;
+    text-align: center;
+    color: #fff;
+   
+}
+header h1 strong{
+    color: #18c4ff;
+}
+
+section{
+    max-width: 108rem;
+    margin: 3rem auto;
+}
+section h2{
+    padding: 1rem;
+    border: solid .1rem rgb(239, 237, 237);
+    text-transform: uppercase;
+    background-color: #fafafa;
+    border-radius: .4rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+section p{
+    padding: 1rem;
+    background-color: #18c4ff;
+    border-radius: .4rem;
+    color: #222;
+}
+footer *{
+    text-align: center;
+}
