@@ -1,0 +1,37 @@
+@import url(./reset.css);
+/*
+
+++++++++++++++++++++++
+|      THEME CSS     |
+|                    |
+++++++++++++++++++++++
+
+*/
+:root{
+    --bgcolor-header: #222; /* variable css */
+    --bgcolor-figcpation:  #5bcaf2;
+}
+
+header{
+    background-color: var(--bgcolor-header);
+   
+}
+header h1{
+    line-height: 7.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+figure{
+    width: 100rem;
+    margin: 5rem auto 0;
+    border: solid .1rem transparent;
+}
+figure figcaption{
+    background-color: var(--bgcolor-figcpation);
+    padding: 1rem;
+   
+}
+footer *{
+    text-align: center;
+}
