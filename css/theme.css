@@ -26,6 +26,13 @@ figure{
     width: 100rem;
     margin: 5rem auto 0;
     border: solid .1rem transparent;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 3rem #848383;
+}
+figure h2{
+    background-color: var(--bgcolor-header);
+    color: #fff;
+    padding: 1rem;
 }
 figure figcaption{
     background-color: var(--bgcolor-figcpation);
