@@ -26,7 +26,7 @@ body{
     grid-template-rows: auto 1fr auto;
     letter-spacing: 0.1rem; /* 1px */
     line-height: 1.6; /* constante hauteur des lignes */
-    height: 100vh;
+    min-height: 100svh;
     
 }
 h1, h2, h3, h4, h5, h6,
@@ -39,6 +39,11 @@ p, figure, ul, ol{
 *{
     box-sizing: border-box; /* 100px largeur ajouter 10px 
     droite et gauche de l'élément: largeur totale = 120  100 - 20 */
+}
+img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
 }
 
 /* ====================
