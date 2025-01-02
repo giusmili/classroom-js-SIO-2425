@@ -33,5 +33,6 @@ const User = {
 
 Object.seal(User);
 User.ville = "Paris"; /* empeche d'ajouter une nouvelle propriété */
+
 delete Object.name; /* cela empeche de supprimer une propriété */
 console.table(User);
