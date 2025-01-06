@@ -52,8 +52,17 @@ figure figcaption{
 footer *{
     text-align: center;
 }
-
+/* media queris  css */
+@media screen and (max-width: 70rem) {
+    header h1{
+        color: red;
+        font-size: 2rem;
+    }
+}
 @media  screen and (orientation: landscape) {
+    header h1{
+        color: #fff;
+    }
     figure img{
         width: inherit;
     }
