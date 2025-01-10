@@ -17,6 +17,7 @@ header{
    
 }
 header h1{
+    font-size: xx-large;
     line-height: 7.5rem;
     text-align: center;
     color: #fff;
@@ -55,13 +56,19 @@ footer *{
 /* media queris  css */
 @media screen and (max-width: 70rem) {
     header h1{
-        color: red;
+ 
         font-size: 2rem;
+        width: 41rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 }
 @media  screen and (orientation: landscape) {
     header h1{
         color: #fff;
+      
+        width: auto;
     }
     figure img{
         width: inherit;
